@@ -1,0 +1,17 @@
+{
+  "name": "global-namespace-pollution",
+  "version": "1.0.0",
+  "description": "reproduction code of namespace pollution when bundling with Vite (which uses esbuild)",
+  "main": "test.js",
+  "scripts": {
+    "esbuild": "node esbuild.js",
+    "vite": "node vite.js"
+  },
+  "author": "Matthias Dittgen <dittgen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "vite": "^5.2.9"
+  },
+  "type": "module"
+}
